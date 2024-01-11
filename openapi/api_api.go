@@ -2212,13 +2212,14 @@ func (a *ApiApiService) RunTestExecute(r ApiRunTestRequest) (*TestRun, *http.Res
 	fmt.Println("localBasePath", localBasePath)
 	fmt.Println("localVarPath", localVarPath)
 	fmt.Println("localVarHTTPMethod", localVarHTTPMethod)
-	fmt.Println("localVarPostBody", localVarPostBody)
+
 	fmt.Println("localVarHeaderParams", localVarHeaderParams)
 	fmt.Println("localVarQueryParams", localVarQueryParams)
 	fmt.Println("localVarFormParams", localVarFormParams)
 	fmt.Println("formFiles", formFiles)
 	// body params
 	localVarPostBody = r.runInformation
+	fmt.Println("localVarPostBody", localVarPostBody)
 	req, err := a.client.prepareRequest(r.ctx, localVarPath, localVarHTTPMethod, localVarPostBody, localVarHeaderParams, localVarQueryParams, localVarFormParams, formFiles)
 	fmt.Println("request", req)
 	if err != nil {
