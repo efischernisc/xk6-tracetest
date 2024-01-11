@@ -13,6 +13,7 @@ package openapi
 import (
 	"bytes"
 	"context"
+	"fmt"
 	"io/ioutil"
 	"net/http"
 	"net/url"
@@ -2207,6 +2208,15 @@ func (a *ApiApiService) RunTestExecute(r ApiRunTestRequest) (*TestRun, *http.Res
 	if localVarHTTPHeaderAccept != "" {
 		localVarHeaderParams["Accept"] = localVarHTTPHeaderAccept
 	}
+
+	fmt.Println("localBasePath", localBasePath)
+	fmt.Println("localVarPath", localVarPath)
+	fmt.Println("localVarHTTPMethod", localVarHTTPMethod)
+	fmt.Println("localVarPostBody", localVarPostBody)
+	fmt.Println("localVarHeaderParams", localVarHeaderParams)
+	fmt.Println("localVarQueryParams", localVarQueryParams)
+	fmt.Println("localVarFormParams", localVarFormParams)
+	fmt.Println("formFiles", formFiles)
 	// body params
 	localVarPostBody = r.runInformation
 	req, err := a.client.prepareRequest(r.ctx, localVarPath, localVarHTTPMethod, localVarPostBody, localVarHeaderParams, localVarQueryParams, localVarFormParams, formFiles)
