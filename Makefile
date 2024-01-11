@@ -1,4 +1,4 @@
-EXTENSION_NAME=github.com/kubeshop/xk6-tracetest
+EXTENSION_NAME=github.com/efischernisc/xk6-tracetest
 .PHONY: help
 help: Makefile ## show list of commands
 	@echo "Choose a command run:"

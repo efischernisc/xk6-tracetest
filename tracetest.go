@@ -1,9 +1,9 @@
 package tracetest
 
 import (
-	"github.com/kubeshop/xk6-tracetest/modules/instance"
-	tracetestOutput "github.com/kubeshop/xk6-tracetest/modules/output"
-	"github.com/kubeshop/xk6-tracetest/modules/tracetest"
+	"github.com/efischernisc/xk6-tracetest/modules/instance"
+	tracetestOutput "github.com/efischernisc/xk6-tracetest/modules/output"
+	"github.com/efischernisc/xk6-tracetest/modules/tracetest"
 	"go.k6.io/k6/js/modules"
 	"go.k6.io/k6/output"
 )

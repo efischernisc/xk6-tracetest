@@ -3,7 +3,7 @@ package models
 import (
 	"fmt"
 
-	"github.com/kubeshop/xk6-tracetest/openapi"
+	"github.com/efischernisc/xk6-tracetest/openapi"
 )
 
 type Test struct {

@@ -5,7 +5,7 @@ import (
 	"strings"
 
 	"github.com/dop251/goja"
-	"github.com/kubeshop/xk6-tracetest/utils"
+	"github.com/efischernisc/xk6-tracetest/utils"
 	"go.k6.io/k6/js/modules"
 )
 

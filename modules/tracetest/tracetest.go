@@ -7,8 +7,8 @@ import (
 	"time"
 
 	"github.com/dop251/goja"
-	"github.com/kubeshop/xk6-tracetest/models"
-	"github.com/kubeshop/xk6-tracetest/openapi"
+	"github.com/efischernisc/xk6-tracetest/models"
+	"github.com/efischernisc/xk6-tracetest/openapi"
 	"github.com/sirupsen/logrus"
 	"go.k6.io/k6/js/common"
 	"go.k6.io/k6/js/modules"

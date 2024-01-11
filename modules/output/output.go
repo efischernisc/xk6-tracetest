@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"math/rand"
 
-	"github.com/kubeshop/xk6-tracetest/models"
-	"github.com/kubeshop/xk6-tracetest/modules/tracetest"
+	"github.com/efischernisc/xk6-tracetest/models"
+	"github.com/efischernisc/xk6-tracetest/modules/tracetest"
 	"github.com/sirupsen/logrus"
 
 	"go.k6.io/k6/metrics"

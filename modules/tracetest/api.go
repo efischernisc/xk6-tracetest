@@ -10,9 +10,9 @@ import (
 	"sync"
 	"time"
 
+	"github.com/efischernisc/xk6-tracetest/models"
+	"github.com/efischernisc/xk6-tracetest/openapi"
 	"github.com/golang-jwt/jwt"
-	"github.com/kubeshop/xk6-tracetest/models"
-	"github.com/kubeshop/xk6-tracetest/openapi"
 )
 
 func NewAPIClient(options models.ApiOptions) (*openapi.APIClient, string) {

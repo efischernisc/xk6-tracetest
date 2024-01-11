@@ -1,4 +1,4 @@
-module github.com/kubeshop/xk6-tracetest
+module github.com/efischernisc/xk6-tracetest
 
 go 1.19
 
